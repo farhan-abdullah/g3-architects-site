@@ -129,9 +129,6 @@ p {
   ul {
     flex-direction: column;
   }
-  .second-section {
-    flex-direction: column;
-  }
   .four-img {
     grid-template-columns: max-content;
     gap: 20px 20px;
