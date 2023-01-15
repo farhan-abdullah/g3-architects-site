@@ -112,7 +112,82 @@ p {
   height: 78px;
   margin-bottom: 20px;
 }
+.third-section {
+  width: 100%;
+  margin: 100px 240px;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
+}
 
+.third-details {
+  width: 50%;
+}
+
+.third-img {
+  width: 50%;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.card {
+  padding: 30px;
+  width: 586px;
+  height: 171px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.third-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 10px;
+  border-left-style: solid;
+  border-color: #ff900e;
+  width: 468px;
+  height: 106px;
+  padding: 0 20px;
+}
+.third-description {
+  width: 586px;
+  height: 78px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+h6 {
+  margin-bottom: 10px;
+  color: #131313;
+  font-weight: 600;
+  font-size: 20px;
+}
+.card p {
+  line-height: 23px;
+}
+.third-img {
+  position: relative;
+}
+.third-img img {
+  height: 882px;
+  width: 100%;
+  object-fit: contain;
+}
+.bg-btn {
+  position: absolute;
+  top: 785px;
+  left: -01px;
+  width: 342px;
+  height: 200px;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 65px;
+  border: none;
+}
+p span {
+  color: #ffffff;
+}
 /*-----------------------
      For small device 
  -----------------------*/
