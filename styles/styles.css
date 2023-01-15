@@ -233,6 +233,7 @@ p span {
 .last-details {
   width: 542px;
   height: 129px;
+  margin: 0 auto;
 }
 .brand-imgs {
   margin-top: 20px;
@@ -242,6 +243,19 @@ p span {
 footer {
   text-align: center;
   margin: 100px 0;
+}
+.footer {
+  padding: 40px;
+  text-align: center;
+  height: 100px;
+  margin: 100px 240px;
+  background-color: #fff4e7;
+  border-radius: 8px;
+}
+h6 {
+  color: #424242;
+  font-weight: 400;
+  font-size: 20px;
 }
 /*-----------------------
      For small device
