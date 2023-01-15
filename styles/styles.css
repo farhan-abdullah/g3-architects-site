@@ -280,6 +280,36 @@ h6 {
   font-weight: 400;
   font-size: 20px;
 }
+/* extra section start */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border: 0;
+  height: 200px;
+  padding: 50px;
+  width: 809px;
+  background: #fff4d6;
+  margin: 20px auto;
+}
+
+.content-update {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+input {
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  width: 275px;
+  height: 48px;
+}
+.updates {
+  text-align: center;
+  margin-top: 100px;
+}
 /*-----------------------
      For small device
  -----------------------*/
@@ -356,5 +386,8 @@ h6 {
   }
   .footer {
     margin-left: 400px;
+  }
+  .updates {
+    margin-left: 400pxs;
   }
 }
