@@ -3,6 +3,7 @@
   --black: #131313;
 }
 * {
+  display: inline-block;
   margin: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
@@ -292,5 +293,18 @@ h6 {
     height: fit-content;
     object-fit: contain;
     margin: 0 100px;
+  }
+  .third-section {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .fifth-section {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .brand-imgs {
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
   }
 }
