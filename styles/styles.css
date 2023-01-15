@@ -222,6 +222,29 @@ p span {
   width: 241.83px;
   height: 241.83px;
 }
+.data:hover {
+  border: 1px solid #ff900e;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    border-color: green;
+  }
+  25% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: blue;
+  }
+  75% {
+    border-color: green;
+  }
+  100% {
+    border-color: blue;
+  }
+}
 .data img {
   width: 45.22px;
   height: 45.22px;
