@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
-
+:root {
+  --black: #131313;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -113,20 +115,13 @@ p {
   margin-bottom: 20px;
 }
 .third-section {
-  width: 100%;
   margin: 100px 240px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   column-gap: 10px;
 }
 
-.third-details {
-  width: 50%;
-}
-
-.third-img {
-  width: 50%;
-}
 .cards {
   display: flex;
   flex-direction: column;
@@ -188,8 +183,68 @@ h6 {
 p span {
   color: #ffffff;
 }
+/*----------------------
+    end of third section
+------------------------*/
+.fourth-section {
+  margin: 100px 240px;
+  text-align: left;
+}
+.fourth-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+.fourth-description {
+  width: 542px;
+  height: 52px;
+  line-height: 26px;
+}
+/* ------------------------
+    end of fourth section
+---------------------------
+        start fifth section     */
+.fifth-section {
+  margin: 100px 240px;
+  display: flex;
+  justify-content: space-around;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 241.83px;
+  height: 241.83px;
+}
+.data img {
+  width: 45.22px;
+  height: 45.22px;
+}
+/* end of fifth section*/
+.last-section {
+  text-align: center;
+}
+.last-details {
+  width: 542px;
+  height: 129px;
+}
+.brand-imgs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  text-align: center;
+  margin: 100px 0;
+}
 /*-----------------------
-     For small device 
+     For small device
  -----------------------*/
 @media screen and (max-width: 576px) {
   .first-zone {
